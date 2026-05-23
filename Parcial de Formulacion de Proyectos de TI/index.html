@@ -1334,15 +1334,67 @@
 
       <!-- OC -->
       <div class="cd" style="border-left:4px solid #0f172a; margin-bottom:1.5rem;">
-        <h4 style="margin-top:0; color:var(--head); font-weight:700; margin-bottom:.5rem;">Objetivo Central (OC)</h4>
-        <strong style="font-size:1.05rem; color:#0f172a; display:block; margin-bottom:.8rem;">Implementar una plataforma Big Data + RPA para reducir el tiempo de aprobación a &lt;24h y disminuir la morosidad al promedio competitivo, en 18 meses.</strong>
-        <ul style="padding-left:1.5rem; margin-bottom:0; font-size:.85rem; color:var(--txt);">
-          <li><strong>Específico:</strong> Define plataforma (Big Data + RPA), proceso (evaluación crediticia) y resultados (tiempo y morosidad).</li>
-          <li><strong>Medible:</strong> Tiempo de ciclo en días y tasa de morosidad (%).</li>
-          <li><strong>Alcanzable:</strong> Soluciones probadas en el sector financiero, equipo y ecosistema disponibles.</li>
-          <li><strong>Relevante:</strong> Responde al mandato estratégico de Gerencia General e intereses de Accionistas.</li>
-          <li><strong>Temporal:</strong> 18 meses desde la aprobación formal.</li>
-        </ul>
+        <h4 style="margin-top:0; color:var(--head); font-weight:700; margin-bottom:.5rem;">OC — Objetivo Central (Reformulado)</h4>
+        <div style="background:#0f172a; color:#4ade80; padding:1rem 1.2rem; border-radius:8px; margin-bottom:1.2rem; font-size:.9rem; font-style:italic; line-height:1.7;">
+          <strong style="color:#fff; display:block; margin-bottom:.4rem; font-size:.75rem; text-transform:uppercase; letter-spacing:1px;">Enunciado SMART</strong>
+          Implementar una plataforma de Credit Scoring basada en Big Data y algoritmos de Machine Learning que reduzca el tiempo de aprobación de créditos de 5 días a menos de 24 horas mediante la automatización del proceso de evaluación, y disminuya la tasa de morosidad de la cartera de microcréditos al promedio competitivo del sector de microfinanzas peruano, a través de decisiones crediticias objetivas y predictivas, en un plazo máximo de 18 meses contados desde la aprobación formal del proyecto.
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:1rem; font-size:.88rem;">
+
+          <!-- S -->
+          <div style="background:#f8fafc; border-left:4px solid #0ea5e9; padding:.9rem 1.1rem; border-radius:0 8px 8px 0;">
+            <strong style="color:#0369a1; font-size:1rem; display:block; margin-bottom:.4rem;">🎯 Específico</strong>
+            <p style="margin:0; color:var(--txt); line-height:1.7;">Define con precisión qué sistema se implementa (plataforma de Credit Scoring basada en Big Data y Machine Learning), qué proceso se transforma (evaluación y aprobación crediticia de microcréditos para pequeñas empresas), qué tecnología reemplaza al proceso manual (modelos predictivos de scoring que sustituyen la evaluación discrecional del analista humano), y cuáles son los dos resultados esperados y medibles: reducción del tiempo de ciclo crediticio y disminución de la tasa de morosidad. La solución seleccionada elimina la ambigüedad sobre el mecanismo de cambio: no es automatización de tareas repetitivas (RPA), sino inteligencia predictiva aplicada a la decisión crediticia.</p>
+          </div>
+
+          <!-- M -->
+          <div style="background:#f8fafc; border-left:4px solid #10b981; padding:.9rem 1.1rem; border-radius:0 8px 8px 0;">
+            <strong style="color:#065f46; font-size:1rem; display:block; margin-bottom:.4rem;">📏 Medible</strong>
+            <p style="margin:0 0 .6rem; color:var(--txt); line-height:1.7;">Dos indicadores cuantificables con línea base definida según el caso.</p>
+            <ul style="margin:0; padding-left:1.4rem; color:var(--txt); line-height:1.8;">
+              <li>El <strong>tiempo de ciclo crediticio</strong>, cuya línea base es 5 días promedio según el caso, y cuya meta es <strong>menos de 24 horas</strong>.</li>
+              <li>La <strong>tasa de morosidad</strong>, cuya línea base es la tasa actual de Finanzas Ágiles S.A., descrita en el caso como "considerablemente alta para el sector" y que debe ser levantada como primer entregable del proyecto a partir de los estados financieros internos y los reportes a la SBS, con meta de alcanzar o situarse por debajo del <strong>promedio del sector de microfinanzas publicado trimestralmente por la Superintendencia de Banca y Seguros del Perú</strong>.</li>
+              <li>Un tercer indicador complementario es la <strong>precisión del modelo de scoring</strong>, medida mediante el estadístico <strong>AUC-ROC</strong>, con umbral mínimo aceptable de <strong>0.85</strong> para considerarlo en producción.</li>
+            </ul>
+          </div>
+
+          <!-- A -->
+          <div style="background:#f8fafc; border-left:4px solid #f59e0b; padding:.9rem 1.1rem; border-radius:0 8px 8px 0;">
+            <strong style="color:#92400e; font-size:1rem; display:block; margin-bottom:.4rem;">✅ Alcanzable</strong>
+            <p style="margin:0 0 .6rem; color:var(--txt); line-height:1.7;">La solución es alcanzable por cuatro razones verificables en el caso.</p>
+            <ul style="margin:0; padding-left:1.4rem; color:var(--txt); line-height:1.8;">
+              <li>La <strong>Gerencia General</strong>, identificada como actor de Celda 6 con poder e interés alto en la Fase 1, ha mandatado explícitamente la búsqueda de alternativas para reducir el tiempo de aprobación y la morosidad, lo que garantiza el respaldo institucional y presupuestario.</li>
+              <li>El <strong>Equipo TI y Data Scientists</strong>, identificados en la Celda 7 como actores partidarios del proyecto, constituyen la capacidad técnica interna disponible para el desarrollo del modelo.</li>
+              <li>Los <strong>Proveedores TI</strong>, también en Celda 7, ofrecen la infraestructura de Big Data necesaria en modalidades de servicio en la nube, reduciendo la barrera de inversión inicial.</li>
+              <li>La empresa ya posee los <strong>activos de datos necesarios</strong> para entrenar el modelo, incluyendo los datos históricos de créditos otorgados y los datos no estructurados de documentos y extractos bancarios mencionados explícitamente en el caso, aunque actualmente sin aprovechamiento.</li>
+            </ul>
+          </div>
+
+          <!-- R -->
+          <div style="background:#f8fafc; border-left:4px solid #8b5cf6; padding:.9rem 1.1rem; border-radius:0 8px 8px 0;">
+            <strong style="color:#4c1d95; font-size:1rem; display:block; margin-bottom:.4rem;">🔗 Relevante</strong>
+            <p style="margin:0 0 .6rem; color:var(--txt); line-height:1.7;">La solución de Credit Scoring responde simultáneamente a los dos mandatos estratégicos centrales del caso.</p>
+            <ul style="margin:0; padding-left:1.4rem; color:var(--txt); line-height:1.8;">
+              <li>Responde al <strong>mandato de velocidad</strong> porque el scoring automatizado entrega una evaluación en segundos una vez que los datos del solicitante están disponibles, eliminando la dependencia de la agenda y disponibilidad del analista humano.</li>
+              <li>Responde al <strong>mandato de reducción de morosidad</strong> porque reemplaza la decisión subjetiva, que el caso identifica como causa directa de la morosidad alta, por un modelo estadístico entrenado con el comportamiento real de pago de la cartera histórica.</li>
+              <li>Adicionalmente, la solución es relevante para el actor <strong>SBS</strong>, identificado en la Celda 1 de la Fase 1, porque un modelo de scoring documentado y auditable es precisamente el tipo de metodología estandarizada que la regulación financiera peruana promueve para la gestión del riesgo de crédito.</li>
+            </ul>
+          </div>
+
+          <!-- T -->
+          <div style="background:#f8fafc; border-left:4px solid #ef4444; padding:.9rem 1.1rem; border-radius:0 8px 8px 0;">
+            <strong style="color:#991b1b; font-size:1rem; display:block; margin-bottom:.4rem;">⏱️ Temporal</strong>
+            <p style="margin:0 0 .6rem; color:var(--txt); line-height:1.7;">Plazo de <strong>18 meses</strong> desde la aprobación formal del proyecto, distribuidos en tres fases:</p>
+            <ul style="margin:0; padding-left:1.4rem; color:var(--txt); line-height:1.8;">
+              <li><strong>Fase 1 — Arquitectura de datos e integración de fuentes</strong> (meses 1 a 6).</li>
+              <li><strong>Fase 2 — Desarrollo, entrenamiento y validación del modelo de Machine Learning</strong> (meses 6 a 14).</li>
+              <li><strong>Fase 3 — Despliegue en producción, monitoreo y ajuste del modelo con datos reales</strong> (meses 14 a 18).</li>
+            </ul>
+            <p style="margin:.6rem 0 0; color:var(--txt); line-height:1.7;">El modelo se considera entregado cuando alcanza el umbral de <strong>AUC-ROC ≥ 0.85</strong> en el conjunto de validación y cubre el <strong>100% de las solicitudes entrantes</strong>.</p>
+          </div>
+
+        </div>
       </div>
 
       <h4 style="margin-top:2rem; color:var(--head); font-weight:700; margin-bottom:1rem; font-size:1.1rem;">Medios Directos</h4>
@@ -1429,9 +1481,29 @@
       <h2>Actividad 5: Prototipo de la Solución</h2>
       <h3 style="color: var(--b); border-bottom: 2px solid var(--bd); padding-bottom: 0.5rem;">5.1. Prototipo de la Solución Propuesta</h3>
 
-      <div class="placeholder-box">
-        <div class="icon">🎬</div>
-        <p>Contenido del prototipo pendiente de agregar.<br>Aquí irá el video de mínimo 2 minutos mostrando la solución propuesta.</p>
+      <div style="background:var(--w); border:1px solid var(--bd); border-radius:12px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,.08); margin:1.5rem 0;">
+        <div style="background:linear-gradient(135deg,#0f172a,#1e293b); padding:1rem 1.5rem; display:flex; align-items:center; gap:.8rem;">
+          <span style="font-size:1.4rem;">🎬</span>
+          <div>
+            <strong style="color:#fff; font-size:.95rem; display:block;">Video de demostración — Plataforma de Credit Scoring</strong>
+            <span style="color:#94a3b8; font-size:.78rem;">Prototipo funcional · Finanzas Ágiles S.A.</span>
+          </div>
+        </div>
+        <div style="position:relative; width:100%; padding-top:56.25%; background:#000;">
+          <iframe
+            src="https://drive.google.com/file/d/15DufuOgu8VMJFFLjmZmgKCej2sviQC-_/preview"
+            style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            loading="lazy"
+            title="Prototipo — Plataforma de Credit Scoring basada en Big Data y Machine Learning">
+          </iframe>
+        </div>
+        <div style="padding:1rem 1.5rem; background:#f8fafc; border-top:1px solid var(--bd); font-size:.82rem; color:#64748b; display:flex; gap:1.5rem; flex-wrap:wrap;">
+          <span>📌 <strong>Solución:</strong> Plataforma de Credit Scoring · Big Data + ML</span>
+          <span>🏢 <strong>Empresa:</strong> Finanzas Ágiles S.A.</span>
+          <span>🎓 <strong>Curso:</strong> Formulación de Proyectos de TI · UNTELS 2026</span>
+        </div>
       </div>
     </section>
 
